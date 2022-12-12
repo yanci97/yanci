@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <!--para realizar las conección con css-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="esp"></div>
+    <div class="cabeza">
+        <center><img src="static/logo.png"id="logo"></center><body>
+            <header>
+                <label for = "menu" >
+                    <nav class ="menu">
+                        <ul>
+                            <li><a href="index.html">Inicio</a></il>
+                            <li><a href="cafe.html">Café</a></il>
+                            <li><a href="libros.html">Libros</a></il>
+                            <li><a href="contacto.html">Reserva</a></il>
+                            <li><a href="sucursales.html">Sucursales</a></il>
+                            <li><a href=""></a></il>
+                        </ul>
+                    </nav>
+                </label>
+            </header>
+        </body>
+    </div>
+
+<center><h1>RESERVA LOS LIBROS QUE DESEAS LEER</h1></center>
+<center><h3 >¡Que no te los ganen!</h3></center>
+<form>
+    <fieldset><!--Forman la linea que rodea el formualrio-->
+        <legend><h2 class="h2">¡Contactatate con nosotros!</h2></legend>
+        <p><label for="nombre">Nombre:</label>
+        <input type="text" name ="Nombre" id="nombre" placeholder="Ingrese su nombre" >
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <label for="apellido">Apellidos:</label>
+        <input type="text" name ="Aapellido" id="apellido" placeholder="Ingrese sus Apellidos">
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <label for="dni"  >DNI:</label>
+        <input type="txt" required name ="dni" id="dni" placeholder="Ingrese número de DNI">
+        </p>
+        <br>
+
+        <p> <label for="tel"  >Telefono:</label>
+            <input type="tel" maxlength="9" required name ="tel" id="tel" placeholder="Ingrese número de teléfono">
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+            <label for="email" >Email:</label>
+            <input type="email" required name ="email" id="email" placeholder="Ingrese email" >
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+            <label for="fecha">Feacha/hora de la reserva:</label>
+            <input type="datetime-local" name ="fecha" id="fecha" required>
+        </p>
+        <br>
+        <p><label for="text">Libro:</label>
+            <input type="text" name ="Mensaje" id="text" placeholder="Nombre del libro">
+        </p>
+        <br>
+        <p><label for="cafe">Café:</label>
+            <input type="text" name ="Mensaje" id="cafe" placeholder="Nombre del café">
+        </p>
+        <br>
+        <p><label for="mensaje">Mensaje:</label><br>
+            <textarea type="text" id="mensaje"name ="text" placeholder="Escribenos un mensaje"id="text" rows="8" cols="80" ></textarea>
+        </p>
+        <br>
+        <!--botones de formulario-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value ="Limpiar">
+        </p>
+        <br>  
+    </fieldset>
+</form>  
+</body>
+<br>
+<footer>
+    <center>¡GRACIAS POR VISITARNOS!</center>
+</footer>
+</html>

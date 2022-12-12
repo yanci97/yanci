@@ -1,0 +1,118 @@
+body{
+    background: white;
+}
+
+.menu ul{
+    /*quita los puntitos */
+    list-style: none;
+    /*que salga uno al lado de otro */
+    display:flex;
+    /*que salga a la izquierda*/
+    justify-content: center;
+}
+
+.menu li a{
+    /*quita el subrayado */
+    text-decoration: none;
+    /*tamaño de letra*/
+    font-size: 30px;
+    /*separa*/
+    padding: 20px;
+    /*color*/
+    color: white;
+    /*letra*/
+    font-family: sans-serif;
+    /*lo hace anchito*/
+    display:block;
+}
+
+header{
+    /*fondito*/
+    background: brown;
+
+}
+.esp{
+    position:static;
+    width: 200px;
+    height: 250px;
+    background-color: black;
+}
+.cabeza{
+    position:fixed;
+    width: 100%;
+    top:0%; /*de arriba hacia abajo*/
+    right:0%;
+    background-color: #fff;
+}
+.menu li{
+    /*linias de separación*/
+    border-left: 2px solid #fff
+}
+
+.menu li:hover{
+    /*color al pasar el maus*/
+    background:rgba(0,0,0.3)
+}
+
+footer{
+    /*fondito*/
+    background: brown;
+    font-size: 2em;
+    color:#fff;
+    font-family:Sans-serif ;
+    display:block;
+}
+
+table{
+    font:normal 20px "Segoe UI" ; 
+}
+
+#logo{
+    width: 150px;
+}
+
+.sucu ul{
+    /*quita los puntitos */
+    list-style: none;
+    /*que salga uno al lado de otro */
+    display:flex;
+    /*que salga a la izquierda*/
+    justify-content: center;
+}
+
+.sucu li a{
+    /*quita el subrayado */
+    text-decoration: none;
+    /*tamaño de letra*/
+    font-size: 25px;
+    /*separa*/
+    padding: 20px;
+    /*color*/
+    color: black;
+}
+
+.sucu li a:hover{
+    color:brown;
+}
+
+h2{
+    color: rgb(129, 34, 34);
+    font-weight:bold;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+h3{
+    font-family:"Segoe UI";
+}
+
+label{
+    font-size: 20px;
+    font-family:"Segoe UI";
+}
+input{
+    font-size: 15px;
+}
+textarea{
+    font-size: 15px;
+}
